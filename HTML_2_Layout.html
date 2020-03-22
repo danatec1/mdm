@@ -1,0 +1,83 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="HTML_2_Layout.css" />
+   <title>mdm screen</title>
+</head>
+<body>
+        <header>
+            <img src="images/HTML5_logo1.jpg" width=60 height=60 align="left" />
+            <hgroup>
+               <h1>협력사 마스터 정보관리  MDS202M02</h1>
+               <h3>MD > MDS > 협력사마스터 > 생성 > MAIN-정보입력 </h3>
+            </hgroup>
+        </header>
+        <nav><!-- 메뉴 부분 -->
+            <ul>
+               
+                <li><a href="#">조회</a></li>
+                <li><a href="#">생성</a></li>
+				<li><a href="#">변경</a></li>
+                <li><a href="#">불용</a></li>
+                <li><a href="#">저장</a></li>
+				<li><a href="#">결재</a></li>
+                <li><a href="#">취소</a></li>
+                <li><a href="#">확인</a></li>
+             </ul>
+        </nav>
+        <aside>
+            <!-- 왼쪽 사이드 영역 -->
+            <h3>◆협력사 MASTER</h3>
+            <ol>
+                <li><a href="#mds01">일반데이터</a></li>
+                <li><a href="#mds02">구매데이터</a></li>
+                <li><a href="#mds03">회계데이터</a></li>
+                <li><a href="#mds04">해외은행</a></li>
+        
+             </ol>
+        </aside>
+        <section><!-- 메인 콘텐츠 영역-->
+            <article id="mds01_01">
+			  <h3>협력사코드</h3>
+               <!-- <img src="images/HTML5_Technical_small1.png" align="left" />  -->
+                <form> 
+				  <p><label>협력사코드명/:<input name="custom"> <input class="submit" type="text" value="제출">
+				            회사코드명 : <input name="custom1"><input name="customname1"> </label> </p>                   
+				</form>
+			</article>
+			<article id="mds01_02">
+                 <h3>협력사정보</h3>
+              <!--  <img src="images/HTML5_Technical_small1.png" align="left" /> -->
+                <form> 
+				  <p><label>사업자번호(주민번호) <input name="customno"> 종사업자번호 <input name="customno1"> 개업일자 <input name="install_date"></label></p>
+				  <p><label>법인명(개인명) : <input name="custominfo">   대표자명     <input name="custoInfomname1"> 법인등록번호 <input name="custominfo1">
+				  </label></p>  
+				  <p> <label>업태    : <input name="custom_service">        종목    <input name="custom_kind">     업체영문명 <input name="custom_en"></label></p>                    
+				</form>
+			</article>	
+			<article id="mds01_03">
+			    <h3>주 소</h3>
+              <!--  <img src="images/HTML5_Technical_small1.png" align="left" /> -->
+                <form> 
+				  <p><label>국가코드/명 <input name="custom_ct"> <input name="custom_ct1"> 지역 <input name="custom_rg"> 우편번호<input name="coustom_post"></label></p>
+				  <p><label>주소(사업장소재지) : <input name="custominfo">   <input name="custoInfomname1"> 상세주소 <input name="custominfo1"></label></p>     <p><label>신주소(사업장소재지) : <input name="custominfo">   <input name="custoInfomname1"> </label></p>              
+				</form>
+            </article>
+			<article id="mds01_04">
+			    <h3>통신정보</h3>
+              <!--  <img src="images/HTML5_Technical_small1.png" align="left" /> -->
+                <form> 
+				  <p><label>담당자명 <input name="custom_ct">  부 서 <input name="custom_rg"> 메일ID1<input name="coustom_post"> 메일ID2<input name="custom_post1"></label></p>
+				  <p><label>전화번호 : <input name="custominfo"> 이동전화 <input name="custominfo1"> FAX No# : <input name="custominfo"> </label></p>              
+				</form>
+            </article>
+		</section>
+	
+        <footer>
+          <!--  <img src="images/NCS_LogoE.png" width=100 height=60 align="left" />  -->
+            <address> 서울시 강남구 테헤란로 311 아남타워 1802호 </address>
+            <p>Tel. 02-564-2114/ Fax. 02-3452-2114</p>
+        </footer>
+</body>
+</html>

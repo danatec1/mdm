@@ -1,0 +1,32 @@
+﻿body    { margin:0 auto; font-size:12px }
+header	{ display: block }
+header img {float: left; padding: 5px; }
+nav     { height:30px; line-height:20px; margin-left:-20px }
+nav	ul li { list-style-type:none }
+nav	ul li a { 
+   float:left; width:80px; text-align:center; height:20px; 
+   line-height:20px; border:2px solid #ff9900; margin-right:2px 
+}
+nav	ul li a:hover { background-color:#ff9900 }
+aside   { clear:both; background-color:#BBBBBB; float:left;  width:150px; height:610px; font-size:10pt; font: bold }
+section { 
+   background-color:#E0E0E0; float:left; width:850px; height:610px; 
+   padding-left:10px; padding-right:10px
+}
+article { 
+   background-color:#FFFFFF; width:850px; height:150px; line-height:30px; 
+   border: 1px solid #777777; border-radius:5px; 
+   padding-left:10px; padding-top:5px
+}
+#mds01_01{width:850px;height:90px ; background-color:#dddddd}
+.submit{width:40px}
+footer	{
+   background-color:#CCCCCC; clear:both; width:1000px; 
+   padding-left:20px; padding-top:5px 
+}
+
+p  { line-height:15px }
+h3 { line-height:10px }
+a { text-decoration:none }
+
+
