@@ -1,0 +1,332 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="html_3.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudfiare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <title>Master Detail</title>
+</head>
+<body>
+        <header id="headgroup" class="container">
+            <img src="images/HTML5_logo1.jpg" width=60 height=60 align="left" />
+            <hgroup class="common">
+               <h1>협력사 마스터 정보관리  MDS202M02</h1>
+               <h3>MD > MDS > 협력사마스터 > 생성 > MAIN-정보입력 </h3>
+			   <div  id="hg_button">
+			     <button type="button" class="btn btn-primary">Custom </button>
+		         <button type="button" class="btn btn-primary">Custom</button>
+			     <button type="button" class="btn btn-success" id="btn01">신규</button>
+				  <button type="button" class="btn btn-success">저장</button>
+			  </div>
+			</hgroup>
+		<div>
+			<ul>
+			<h3>조회영역</h3>
+			<table width="878" border="1">
+                  <tbody>
+                    <tr>
+                      <td width="56">필수항목 </td>
+                      <td width="59">&nbsp;</td>
+                      <td width="60">&nbsp;</td>
+                      <td width="70">일반항목 </td>
+                      <td width="107">&nbsp;</td>
+                      <td width="56">일반항목</td>
+                      <td width="105">&nbsp;</td>
+                      <td width="69">일반항목 </td>
+                      <td width="56">&nbsp;</td>
+                      <td width="57">&nbsp;</td>
+                      <td width="40">조 회 </td>
+                      <td width="67"><i class="glyphicon glyphicon-cloud"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
+			</ul>
+			</div>
+	<!--		<hg1>
+				<form action="#" > 
+				  <h5>필수항목</h5>
+					<input class="input-field" type="text" placeholder="code"  name="usernm">
+				    <input class="input-field" type="text" placeholder="team"  name="usernm1">
+					<i class="fa fa-user icon"></i>
+				
+			
+				  <h5>일반항목</h5>
+					<input class="input-field" type="text" placeholder="code"  name="usernm">
+				    <i class="fa fa-user icon"></i>
+			
+			
+				  <h5>일반항목</h5>
+					<input class="input-field" type="text" placeholder="code"  name="usernm">
+				    <i class="fa fa-user icon"></i>
+				
+				
+				  <h5>일반항목</h5>
+					<input class="input-field" type="text" placeholder="code"  name="usernm">
+				    <input class="input-field" type="text" placeholder="team"  name="usernm1">
+					<i class="fa fa-user icon"></i>
+			
+				  <button type="button" class="btn btn-success">조회</button>
+				  <button type="button" class="btn btn-success"><i fa fa-user icon></i></button>
+				</form>
+			</hg1>
+        </header>  -->
+        <nav><!-- 메뉴 부분 -->
+			<ul>
+		 	<h3>  정보영역 Master </h3>	
+			<table width="900" border="1">
+                    <tbody>
+                      <tr>
+                        <td width="81">콤보</td>
+                        <td width="75"></td>
+                        <td width="96">필수검색</td>
+                        <td width="71">&nbsp;</td>
+                        <td width="104">비활성에디트 </td>
+                        <td width="96">&nbsp;</td>
+                        <td width="71">캘린더</td>
+                        <td width="87">&nbsp;</td>
+                        <td width="70">스핀박스</td>
+                        <td width="85">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>비활성검색</td>
+                        <td></td>
+                        <td>에디트검색 </td>
+                        <td>&nbsp;</td>
+                        <td></td>
+                        <td>&nbsp;</td>
+                        <td>에드트</td>
+                        <td>&nbsp;</td>
+                        <td>에디</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>휴대폰</td>
+                        <td>&nbsp;</td>
+                        <td>필수에디트 </td>
+                        <td>&nbsp;</td>
+                        <td>체크박스</td>
+                          <td>&nbsp;</td>
+                        <td>라디오버튼</td>
+                        <td>&nbsp;</td>
+                        <td>첨부</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+			</ul>
+			
+			
+			<ul>
+			<h3> 정보영역 (detail) </h3>
+	        <table width="900" border="1">
+                    <tbody>
+                      <tr>
+                        <th scope="col">check</th>
+                        <th scope="col">no</th>
+                        <th scope="col">column01</th>
+                        <th scope="col">column02</th>
+                        <th scope="col">column03</th>
+                        <th scope="col">column04</th>
+                        <th scope="col">column05</th>
+                        <th scope="col">column06</th>
+                        <th scope="col">column07</th>
+                        <th scope="col">column08</th>
+                        <th scope="col">column09</th>
+                        <th scope="col">column10</th>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+			</ul>
+        </nav>
+      
+		
+        <footer>
+          <!--  <img src="images/NCS_LogoE.png" width=100 height=60 align="left" />  -->
+            <address> 서울시 강남구 테헤란로 311 아남타워 1802호 </address>
+            <p>Tel. 02-564-2114/ Fax. 02-3452-2114</p>
+        </footer>
+</body>
+</html>
